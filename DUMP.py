@@ -128,7 +128,7 @@ def masal(t,c):
     		      sys.stdout.flush()
     		      time.sleep(0.0002)
     	except KeyError:
-    	      print(f'gagal dump akun mungkin tidak publik')
+    	      print(f'gagal dump, akun mungkin tidak publik')
     	      continue		                       		
     simpan()
           
@@ -191,7 +191,6 @@ def get_datagrup(nam,url):
 				idyou =	idsiapa[0].replace('content_owner_id_new.','')
 				namayou = liatnih.split(' > ')[0]
 				idku = idyou+pm+namayou
-				open(nam+".json","w").write(idku+"\n")
 				if idku in id:
 					continue
 				else:
