@@ -10,10 +10,12 @@ Script Dump Facebook Dengan Fitur Pemisah Manual
  $ python -m pip install bs4
  $ git clone https://github.com/RozhBasXYZ/DUMP
  $ cd DUMP
+ $ git pull
  $ python run.py
  ```
 #### Untuk Yang Pernah Install Cukup Pakai Ini
  ```
   $ cd DUMP
+  $ git pull
   $ python run.py
  ```
