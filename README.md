@@ -11,11 +11,11 @@ Script Dump Facebook Dengan Fitur Pemisah Manual
  $ git clone https://github.com/RozhBasXYZ/DUMP
  $ cd DUMP
  $ git pull
- $ python run.py
+ $ python dump.py
  ```
 #### Untuk Yang Pernah Install Cukup Pakai Ini
  ```
   $ cd DUMP
   $ git pull
-  $ python run.py
+  $ python dump.py
  ```
